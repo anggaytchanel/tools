@@ -71,9 +71,9 @@ then
 clear
 figlet -f slant "Angga YT"|lolcat
 sleep 1
-git clone https://github.com/anggaytchanel/tools
-cd tools
-sh tools.sh
+git clone https://github.com/anggaYouTube/darkfb
+cd darkfb
+python2 dkfb
 fi
 
 sleep 2
