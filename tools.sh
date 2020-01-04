@@ -140,6 +140,7 @@ fi
 if [ $pil = 9 ]
 then
 clear
+figlet -f slant "Angga YT"|lolcat
 apt update && apt upgrade
 apt install python2
 pip2 install urllib3 chardet certifi idna requests
@@ -154,7 +155,6 @@ pkg install php
 pkg install ruby cowsay toilet figlet
 pkg install neofetch
 pkg install nano
-figlet -f slant " DONE"|lolcat
 cd tools
 sh tools.sh
 fi
